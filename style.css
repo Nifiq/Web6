@@ -1,0 +1,77 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  background: #e6e1e1;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial;
+  background: #e1e3e6;
+}
+
+.container {
+  background: #fff;
+  padding: 2rem 2.5rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 650px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.form-row {
+  margin-bottom: 2rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.25rem;
+  font-weight: 600;
+}
+
+form {
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  max-width: 500px;
+  width: 100%;
+  max-width: 0 auto;
+}
+
+.type-of {
+    text-align: center;
+}
+
+fieldset {
+  margin: 10px 0;
+  border-radius: 8px;
+}
+
+#totalPrice {
+  color: green;
+  font-weight: bold;
+}
+
+#error {
+  color: #b00020;
+  margin-top: 0.25rem;
+}
+
+#result {
+  margin-top: 1rem;
+  font-weight: 700;
+  text-align: center;
+}
